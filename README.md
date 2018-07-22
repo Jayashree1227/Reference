@@ -61,6 +61,7 @@
 ## JavaScript Libraries
 
 * [Lodash](https://github.com/jeriljose/Reference/blob/gh-pages/lodash.md)
+* [ChosenJs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-ChosenJS.md)
    
 ---
 
