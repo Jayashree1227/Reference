@@ -47,24 +47,22 @@
 * [How to organize Javascript code using closures](https://github.com/jeriljose/Reference/blob/gh-pages/JS-closure.md)
 
 ## Javascript DOM Traversal
-   * [How to access values of a Text field](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-text-fields)
-   * [How to access the values of a form](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-forms)
-   * [How to access the values of a selectbox](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-select-boxes)
-   * [How to access the values of Radio button and checkboxes](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-radio-buttons-and-check-boxes)
-   * [How to execute code when a event occurs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#adding-event-listener)
-   * [How to disable a button in Javascript](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#disable-a-button-in-javascript)
-   * [How to set and get elements of a DIV using innerHtml](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#to-get-the-elements-of-div---use-innerhtml)
+* [How to access values of a Text field](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-text-fields)
+* [How to access the values of a form](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-forms)
+* [How to access the values of a selectbox](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-select-boxes)
+* [How to access the values of Radio button and checkboxes](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#working-with-radio-buttons-and-check-boxes)
+* [How to execute code when a event occurs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#adding-event-listener)
+* [How to disable a button in Javascript](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#disable-a-button-in-javascript)
+* [How to set and get elements of a DIV using innerHtml](https://github.com/jeriljose/Reference/blob/gh-pages/JS-working-with-dom-elements.md#to-get-the-elements-of-div---use-innerhtml)
    
 ## Mixing Javascript & HTML Sample Code
-   * [Mixing Javascript & HTML](https://github.com/jeriljose/Reference/blob/gh-pages/mixing%20javascript%20and%20HTML.md)
+* [Mixing Javascript & HTML](https://github.com/jeriljose/Reference/blob/gh-pages/mixing%20javascript%20and%20HTML.md)
    
----
-
-# JavaScript Libraries
+## JavaScript Libraries
 
 * [Lodash](#)
-
+   
 ---
 
 # Using GitHub
-  * [Git Reference](https://github.com/jeriljose/Reference/blob/gh-pages/Github-Using-github.md)
+* [Git Reference](https://github.com/jeriljose/Reference/blob/gh-pages/Github-Using-github.md)
