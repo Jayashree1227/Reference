@@ -58,7 +58,9 @@
 ## Mixing Javascript & HTML Sample Code
 * [Mixing Javascript & HTML](https://github.com/jeriljose/Reference/blob/gh-pages/mixing%20javascript%20and%20HTML.md)
    
-## JavaScript Libraries - All libraries can be found on http://microjs.com
+## JavaScript Libraries - 
+   
+   ### All libraries can be found on http://microjs.com
 
 * [Lodash](https://github.com/jeriljose/Reference/blob/gh-pages/lodash.md) - Javascript Library to work with arrays, functions, collections, numbers, objects, string etc
 * [ChosenJs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-ChosenJS.md) - JQuery Plugin to create complicated select boxes 
