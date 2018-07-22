@@ -60,7 +60,7 @@
    
 ## JavaScript Libraries
 
-* [Lodash](#)
+* [Lodash](https://github.com/jeriljose/Reference/blob/gh-pages/lodash.md)
    
 ---
 
