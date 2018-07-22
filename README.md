@@ -41,7 +41,6 @@
 
 ## Reference Materials
 
-
 ## JavaScript Function - Different ways of calling functions
 
 * [Different ways of calling Javascript functions](https://github.com/jeriljose/Reference/blob/gh-pages/JS-Different-ways-of-calling-javascript-functions.md)
@@ -59,6 +58,12 @@
 ## Mixing Javascript & HTML Sample Code
    * [Mixing Javascript & HTML](https://github.com/jeriljose/Reference/blob/gh-pages/mixing%20javascript%20and%20HTML.md)
    
+---
+
+# JavaScript Libraries
+
+* [Lodash](#)
+
 ---
 
 # Using GitHub
