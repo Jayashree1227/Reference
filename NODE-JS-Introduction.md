@@ -32,6 +32,8 @@ node index.js
 
 ## Starting a http server
 
+```Javascript
+
 /* ----http server allows you to listen on ports and respond with data--- */
 
 // Dependencies
@@ -50,7 +52,9 @@ server.listen(3000,function(){
 	console.log("The server is listening on port 3000");
 })
 
-/* ---- To run the program: ----*/
+```
+
+/* ---- To run the program on command line ----*/
 
 curl localhost:3000
 
