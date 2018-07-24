@@ -63,8 +63,7 @@
    ##### All libraries can be found on http://microjs.com
 
 * [Lodash](https://github.com/jeriljose/Reference/blob/gh-pages/lodash.md) - Javascript Library to work with arrays, functions, collections, numbers, objects, string etc
-* [ChosenJs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-ChosenJS.md) - JQuery Plugin to create complicated select boxes 
-* [BackboneJs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-BackboneJS.md) - Mixing HTML and Javascript can be seperated which is always confusing
+* [ChosenJs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-ChosenJS.md) - JQuery Plugin to create complicated select boxes
 * [D3.JS](https://github.com/jeriljose/Reference/blob/gh-pages/JS-D3JS-data-visualization.md) - DataScience/Machine Learning in Javascript
 
 ---
