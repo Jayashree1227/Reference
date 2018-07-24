@@ -22,11 +22,15 @@ Networking, HTTP server, TCP server, stdout(printing the information from the se
 
 Node.js is a c++ application that embeds the v8 js engine
 
+```Javascript
 eg: #include <v8.h>
+```
 
 ## To execute node:
 
+```Javascript
 node index.js
+```
 
 ---
 
@@ -81,32 +85,31 @@ var server = http.createServer(function(req,res){
 
 /* -----when someone hit localhost:3000, the below function gets called and when each time this function gets called req and res is brand new every time. req object contains a whole bunch of information on what that user is asking for ------ */
 	
-	/* ----- Get the URL and parse it ----*/
+/* ----- Get the URL and parse it ----*/
 
-    var parsedURL = url.parse(req.url, true); 
-          /* -------req.url will have the full URL what the user is asking for.
-          when you pass true it will call querystring.parse function which returns the query string 'foo=bar&abc=xyz&abc=123' returns as
+var parsedURL = url.parse(req.url, true); 
+/* -------req.url will have the full URL what the user is asking for.
+when you pass true it will call querystring.parse function which returns the query string 'foo=bar&abc=xyz&abc=123' returns as
 
-          {
-            foo: 'bar',
-            abc['xyz','123']
-          }  --------*/
+{
+   foo: 'bar',
+   abc['xyz','123']
+}  --------*/
 
 
-	/* -----Get the path from the URL -------*/
+/* -----Get the path from the URL -------*/
 
-	 var path = parsedURL.pathname; /* ------- returns /admin/planet.html -> this is an untrimmed path ------ */
+var path = parsedURL.pathname; /* ------- returns /admin/planet.html -> this is an untrimmed path ------ */
 
-	/* ----------To get the trimmed path -> this will trim unnecessary slashes(/) from the URL -------- */
+/* ----------To get the trimmed path -> this will trim unnecessary slashes(/) from the URL -------- */
 
-	 var trimmedPath = path.replace(/^\/+|\/+$/g,'');
+var trimmedPath = path.replace(/^\/+|\/+$/g,'');
 
-	/* ------ Send the response ------- */
-	res.end('Hellow World\n');
+/* ------ Send the response ------- */
+res.end('Hellow World\n');
 
-	/* -----Get print the path what the user has asked for ie. admin/planet.html -------*/
-	console.log('Request recieved on path: '+trimmedPath);
-
+/* -----Get print the path what the user has asked for ie. admin/planet.html -------*/
+console.log('Request recieved on path: '+trimmedPath);
 
 })
 
