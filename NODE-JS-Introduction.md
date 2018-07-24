@@ -60,7 +60,9 @@ server.listen(3000,function(){
 
 /* ---- To run the program on command line ----*/
 
+```Javascript
 curl localhost:3000
+```
 
 ---
 
