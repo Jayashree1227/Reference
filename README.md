@@ -61,7 +61,7 @@
 ## JavaScript Libraries:
    
 > :boom: All libraries can be found on [microjs](http://microjs.com)
-> :boom: All library Hellow World examples can be found on [javascriptoo](http://javascriptoo.com)
+> :boom: All library "Hello World" examples can be found on [javascriptoo](http://javascriptoo.com)
 
 * [Lodash](https://github.com/jeriljose/Reference/blob/gh-pages/lodash.md) - Javascript Library to work with arrays, functions, collections, numbers, objects, string etc
 * [ChosenJs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-ChosenJS.md) - JQuery Plugin to create complicated select boxes
