@@ -68,11 +68,13 @@ curl localhost:3000
 
 ## Parsing Request Paths - Using the URL library
 
+```diff
 /* ----------
 
 + The below code gets what URL has the user requested for. If the user has requested for http://xyz.com/admin/planet.html, the below code will identify that the user has requested for planet.html
 
 ---------*/
+```
 
 
 ```Javascript
