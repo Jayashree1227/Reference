@@ -10,6 +10,7 @@
 * [CSS absolute and relative positioning](https://github.com/jeriljose/Reference/blob/gh-pages/CSS-positioning-absolute-relative.md)
 * [Setting default styles in CSS](https://github.com/jeriljose/Reference/blob/gh-pages/CSS-setting-default-styles.md)
 * [How to use pseudo class in CSS](https://github.com/jeriljose/Reference/blob/gh-pages/Using-pseudo-class.md)
+* [Using the nth child selector in CSS](https://css-tricks.com/how-nth-child-works/)
 
 ## Introduction: Default Styles
 
