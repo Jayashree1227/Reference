@@ -37,7 +37,7 @@
 
 ---
 
-# JAVASCRIPT
+# &#x1F4D7; JAVASCRIPT
 
 ## Reference Materials
 
@@ -68,11 +68,11 @@
 
 ---
 
-# NODE.JS
+# &#x1F4D7; NODE.JS
 
 * [Introduction to Node](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-JS-Introduction.md)
 
 ---
 
-# Using GitHub
+# &#x1F4D7; Using GitHub
 * [Git Reference](https://github.com/jeriljose/Reference/blob/gh-pages/Github-Using-github.md)
