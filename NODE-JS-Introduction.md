@@ -125,5 +125,70 @@ server.listen(3000,function(){
 
 ---
 
-## Parsing HTTP Methods
+## HTTP Methods: 
 
+/* The http methods are POST, GET, PUT and delete */
+
+/* Get method is used to get/retrieve information from the server and display in the client browser. Get method will return the STATUS LINE, HEADER information and content
+
+   Eg: http://xyz.com/?name={name}&age={age} -> You are trying to get {name} and {age} from the server
+
+/* Post method is used to send data to the server from the client and also get data from the server */
+
+## GET and POST Introduction Videos
+
+[![GET & POST](http://img.youtube.com/vi/RkFswrkkie8/0.jpg)](http://www.youtube.com/watch?v=RkFswrkkie8)
+
+
+[![GET & POST](http://img.youtube.com/vi/9o_4lsOkQ3g/0.jpg)](http://www.youtube.com/watch?v=9o_4lsOkQ3g)    
+
+
+/* If you want to remove any data in the server then you can use the delete method. The client will send delete request to the server and the resource will be deleted */
+
+/* From the server if you want to get only STATUS LINE and HEADER information of the particular request then you can use the HEAD method */
+
+/* If the client wants to establish a connection with the server then we can use the CONNECT method */
+
+## Parsing HTTP Methods: 
+
+/* Now here what we will do is, when a request comes in we want to figure out which http method the user is requesting */
+
+```Javascript
+
+var http = require('http');
+var url = require('url');
+
+var server = http.createServer(function(req,res){
+    var parsedURL = url.parse(req.url, true);
+    var path = parsedURL.pathname; 
+    var trimmedPath = path.replace(/^\/+|\/+$/g,'');
+
+    // Get the HTTP method. Method is one of the objects available in the req object. 
+    // Remember that req object is new for every single incoming request
+    // toLowerCase() will convert GET to get, or POST to post
+
+    var method = req.method.toLowerCase();
+   
+    res.end('Hellow World\n');
+    console.log('Request recieved on path: '+trimmedPath + 'with method: ' + method);
+})
+
+
+server.listen(3000,function(){
+    console.log("The server is listening on port 3000");
+})
+
+```
+
+## To run the code
+
+```
+curl localhost:3000/foo/bar
+
+```
+
+returns
+
+Request recieved on path: foo/bar with method: get
+
+---
