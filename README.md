@@ -1,4 +1,4 @@
-# CSS (&#x1F4D7;):
+# CSS &#x1F4D7;:
 
 ## Reference Materials
 * [Using Default DOM Elements in CSS](https://github.com/jeriljose/Reference/blob/gh-pages/CSS-Default-elements.md)
