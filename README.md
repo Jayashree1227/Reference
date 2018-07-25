@@ -58,7 +58,7 @@
 ## Mixing Javascript & HTML Sample Code
 * [Mixing Javascript & HTML](https://github.com/jeriljose/Reference/blob/gh-pages/mixing%20javascript%20and%20HTML.md)
    
-## JavaScript Libraries - : :bowtie: `:bowtie:`
+## JavaScript Libraries - : :bowtie: 
    
     `:heavy_check_mark:` All libraries can be found on [microjs](http://microjs.com)
     `:heavy_check_mark:` All library Hellow World examples can be found on [javascriptoo](http://javascriptoo.com)
