@@ -34,7 +34,7 @@ node index.js
 
 ---
 
-## Starting a http server
+## STEP 1: Starting a http server
 
 ```Javascript
 
@@ -66,7 +66,7 @@ curl localhost:3000
 
 ---
 
-## Parsing Request Paths - Using the URL library
+## STEP 2: Parsing Request Paths - Using the URL library
 
 /* ---------- 
 
@@ -125,31 +125,7 @@ server.listen(3000,function(){
 
 ---
 
-## HTTP Methods: 
-
-/* The http methods are POST, GET, PUT and delete */
-
-/* Get method is used to get/retrieve information from the server and display in the client browser. Get method will return the STATUS LINE, HEADER information and content
-
-   Eg: http://xyz.com/?name={name}&age={age} -> You are trying to get {name} and {age} from the server
-
-/* Post method is used to send data to the server from the client and also get data from the server */
-
-## GET and POST Introduction Videos
-
-[![GET & POST](http://img.youtube.com/vi/RkFswrkkie8/0.jpg)](http://www.youtube.com/watch?v=RkFswrkkie8)
-
-
-[![GET & POST](http://img.youtube.com/vi/9o_4lsOkQ3g/0.jpg)](http://www.youtube.com/watch?v=9o_4lsOkQ3g)    
-
-
-/* If you want to remove any data in the server then you can use the delete method. The client will send delete request to the server and the resource will be deleted */
-
-/* From the server if you want to get only STATUS LINE and HEADER information of the particular request then you can use the HEAD method */
-
-/* If the client wants to establish a connection with the server then we can use the CONNECT method */
-
-## Parsing HTTP Methods: 
+## STEP 3: Parsing HTTP Methods: 
 
 /* Now here what we will do is, when a request comes in we want to figure out which http method the user is requesting */
 
@@ -190,5 +166,29 @@ curl localhost:3000/foo/bar
 returns
 
 Request recieved on path: foo/bar with method: get
+
+### HTTP Methods: 
+
+/* The http methods are POST, GET, PUT and delete */
+
+/* Get method is used to get/retrieve information from the server and display in the client browser. Get method will return the STATUS LINE, HEADER information and content
+
+   Eg: http://xyz.com/?name={name}&age={age} -> You are trying to get {name} and {age} from the server
+
+/* Post method is used to send data to the server from the client and also get data from the server */
+
+## GET and POST Introduction Videos
+
+[![GET & POST](http://img.youtube.com/vi/RkFswrkkie8/0.jpg)](http://www.youtube.com/watch?v=RkFswrkkie8)
+
+
+[![GET & POST](http://img.youtube.com/vi/9o_4lsOkQ3g/0.jpg)](http://www.youtube.com/watch?v=9o_4lsOkQ3g)    
+
+
+/* If you want to remove any data in the server then you can use the delete method. The client will send delete request to the server and the resource will be deleted */
+
+/* From the server if you want to get only STATUS LINE and HEADER information of the particular request then you can use the HEAD method */
+
+/* If the client wants to establish a connection with the server then we can use the CONNECT method */
 
 ---
