@@ -65,8 +65,8 @@
 
 * [Lodash](https://github.com/jeriljose/Reference/blob/gh-pages/lodash.md) - Javascript Library to work with arrays, functions, collections, numbers, objects, string etc. ["Hello World Example"](http://www.javascriptoo.com/lodash-js)
 * [ChosenJs](https://github.com/jeriljose/Reference/blob/gh-pages/JS-ChosenJS.md) - JQuery Plugin to create complicated select boxes
-* [D3.JS](https://github.com/jeriljose/Reference/blob/gh-pages/JS-D3JS-data-visualization.md) - DataScience/Machine Learning in Javascript, ["Hello World" Example](http://www.javascriptoo.com/d3)
-* BeanJS - Javascript library to handle events like click, mousedown etc. [Github](https://github.com/fat/bean), [Hello world example](http://www.javascriptoo.com/bean)
+* [D3.JS](https://github.com/jeriljose/Reference/blob/gh-pages/JS-D3JS-data-visualization.md) - DataScience/Machine Learning in Javascript, ["Hello World Example"](http://www.javascriptoo.com/d3)
+* [BeanJS](https://github.com/fat/bean) - Javascript library to handle events like click, mousedown etc. ["Hello World Example"](http://www.javascriptoo.com/bean)
 
 ---
 
