@@ -85,9 +85,9 @@ d3.select('.item:nth-child(2n)').text('select')
 
 ---
 
-```
 ## Inserting HTML elements in DOM
 
+```
 <!DOCTYPE html>
 <html>
 <head>
