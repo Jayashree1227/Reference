@@ -210,3 +210,49 @@ d3.selectAll('.item:nth-child(3)')
 ```
 
 ---
+
+## Binding data to the DOM
+
+Here we will see on how to use the ```data()``` function in data.js
+
+### HTML Structure
+
+```
+<section id="chart">
+   <div class="item">John</div>
+   <div class="item">James</div>
+   <div class="item">Jeril</div>
+   <div class="item">Jose</div>
+   <div class="item">Jany</div>
+</section>
+
+```
+
+### Javascript Code
+
+```Javascript
+
+var myStyles = [
+  '#A57706',
+  '#BD3613',
+  '#D11C24',
+  '#C61C6F',
+  '#595AB7',
+  '#2176C7'
+];
+
+
+//Here style is a function which takes 2 paramaters. The first parameter is 'background' and the second parameter is function.
+
+// function(d) -> d contains what is passed inside .data i.e myStyles
+// It becomes like this style = background = #A57706, background = #BD3613. So here the first ```<li>``` tag gets #A57706 color, the second ```<li>``` tag gets #BD3613 color etc.
+
+d3.selectAll('.item')
+  .data(myStyles)
+  .style('background', function(d) {
+    return d
+  })
+
+```
+
+---
