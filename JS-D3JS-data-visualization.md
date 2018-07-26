@@ -25,7 +25,7 @@ You can refer the below section to select HTML dom elements in D3. Selecting an 
 </body>
 ```
 
-## D3 DOM selector
+## &#x1F4D7; D3 DOM selector
 
 Refer the below documentation on how to select DOM elements in D3
 
@@ -85,7 +85,7 @@ d3.select('.item:nth-child(2n)').text('select')
 
 ---
 
-## Working with HTML DOM Elements using D3(Inserting, appending, removing HTML elements)
+## &#x1F4D7; Working with HTML DOM Elements using D3(Inserting, appending, removing HTML elements)
 
 So how do you insert HTML elements like ```<div>```, ```<span>``` inside the DOM?
 
@@ -173,7 +173,7 @@ The above code selects the first item and creates a ```<div>``` under it and the
 
 ---
 
-## Working with CSS and styling - 
+## &#x1F4D7; Working with CSS and styling - 
 
 You can style elements using the ```attr()``` method of D3. You can also control any element using ATTR method
 
