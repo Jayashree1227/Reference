@@ -85,7 +85,7 @@ d3.select('.item:nth-child(2n)').text('select')
 
 ---
 
-## Inserting HTML elements in DOM
+## Working with HTML DOM Elements using D3(Inserting, appending, removing HTML elements)
 
 So how do you insert HTML elements like ```<div>```, ```<span>``` inside the DOM?
 
@@ -113,7 +113,7 @@ So how do you insert HTML elements like ```<div>```, ```<span>``` inside the DOM
 
 <script>
 
-//using the append functionality
+#### using the append functionality
 
 d3.select('.item')   //selects the element with the class name .item, similiarly you can use #chart
   .append('div')
@@ -124,13 +124,13 @@ d3.select('.item')   //selects the element with the class name .item, similiarly
 </body>
 </html>
 
-//using the insert functionality - To insert an element inbetween an element
+#### using the insert functionality - To insert an element inbetween an element
 
 d3.select('#chart')   
   .insert('span', ':nth-child(3)')
   .html('<strong>selection</strong>')
 
-//using the remove functionality - will delete a DOM element
+#### using the remove functionality - To delete a DOM element
 
 
 d3.select('#chart .item:nth-child(3)')
