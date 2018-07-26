@@ -130,7 +130,7 @@ d3.select('.item')   //selects the element with the class name .item, similiarly
 </html>
 ```
 
-Using the insert functionality - To insert a DOM element in-between another DOM element
+#### Using the insert functionality - To Insert a DOM element in-between another DOM element
 
 ```Javacript
 d3.select('#chart')   
@@ -138,7 +138,7 @@ d3.select('#chart')
   .html('<strong>selection</strong>')
 ```
 
-Using the remove functionality - To delete a DOM element
+#### Using the remove functionality - To Delete a DOM element
 
 ```Javascript
 d3.select('#chart .item:nth-child(3)')
