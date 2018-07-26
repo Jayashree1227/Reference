@@ -107,34 +107,42 @@ So how do you insert HTML elements like ```<div>```, ```<span>``` inside the DOM
 		<div class="item">Jany</div>
 	</section>
 </div>
-
 <script src="https://d3js.org/d3.v5.min.js"></script>
 
+<script> 
 
+//write code to insert, append or remove here
+
+</script>
+
+```
+
+#### Using the append functionality
+
+```Javascript
 <script>
-
-:fire: using the append functionality
-
 d3.select('.item')   //selects the element with the class name .item, similiarly you can use #chart
   .append('div')
   .html('<strong>selection</strong>')
-
 </script>
 
 </body>
 </html>
+```
 
-:fire: using the insert functionality - To insert an element inbetween an element
+Using the insert functionality - To insert a DOM element in-between another DOM element
 
+```Javacript
 d3.select('#chart')   
   .insert('span', ':nth-child(3)')
   .html('<strong>selection</strong>')
+```
 
-:fire: using the remove functionality - To delete a DOM element
+Using the remove functionality - To delete a DOM element
 
+```Javascript
 d3.select('#chart .item:nth-child(3)')
   .remove()
-
 ```
 
 ### BROWSER OUTPUT: 
