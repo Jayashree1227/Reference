@@ -172,3 +172,41 @@ The above code selects the first item and creates a ```<div>``` under it and the
 ```
 
 ---
+
+## Working with CSS and styling - 
+
+You can style elements using the ```attr()``` method of D3. You can also control any element using ATTR method
+
+```Javascript
+d3.selectAll('.item')
+  .attr('class', 'highlight')
+```
+
+```Javascript
+d3.selectAll('.item:nth-child(3)')
+  .attr('class', 'highlight')
+```
+
+#### CSS
+
+```
+.highlight{
+  color: #C64C6F
+  font-weight: 600;
+}
+```
+
+You can also style directly like shown below.
+//style is an object {}
+
+```Javascript
+d3.selectAll('.item:nth-child(3)')
+  .style({
+     'background': '#268BD2',
+     'padding' : '10px',
+     'margin' : '5px',
+     'color' : '#EEE8D5'
+  })
+```
+
+---
