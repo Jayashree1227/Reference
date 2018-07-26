@@ -29,7 +29,7 @@ You can refer the below section to select HTML dom elements in D3. Selecting an 
 
 Refer the below documentation on how to select DOM elements in D3
 
-[Selecting DOM elements in D3](https://github.com/d3/d3/blob/master/API.md#selecting-elements)
+:fire: [Selecting DOM elements in D3](https://github.com/d3/d3/blob/master/API.md#selecting-elements)
 
 You can use the below methods to select a DOM element using D3
 
