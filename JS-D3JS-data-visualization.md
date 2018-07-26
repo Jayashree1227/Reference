@@ -142,12 +142,12 @@ d3.select('#chart .item:nth-child(3)')
 
 A new element named selection is added
 
-John
-**selection**
-James
-Jeril
-Jose
-Jany
+* John
+* **selection**
+* James
+* Jeril
+* Jose
+* Jany
 
 ### HTML OUTPUT for APPEND: 
 
