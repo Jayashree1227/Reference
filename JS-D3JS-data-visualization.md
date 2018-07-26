@@ -245,13 +245,22 @@ var myStyles = [
 //Here style is a function which takes 2 paramaters. The first parameter is 'background' and the second parameter is function.
 
 // function(d) -> d contains what is passed inside .data i.e myStyles
-// It becomes like this style = background = #A57706, background = #BD3613. So here the first ```<li>``` tag gets #A57706 color, the second ```<li>``` tag gets #BD3613 color etc.
+// It becomes like this style = background: #A57706, background: #BD3613. So here the first ```<li>``` tag gets #A57706 color, the second ```<li>``` tag gets #BD3613 color etc.
 
 d3.selectAll('.item')
   .data(myStyles)
   .style('background', function(d) {
     return d
   })
+  
+// Now in the above you are only passing a single variable which is background, in the below code lets see how to pass an object
+  
+d3.selectAll('.item')
+  .data(myStyles)
+  .style('background', function(d) {
+    return d
+  })
+  
 
 ```
 
