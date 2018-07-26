@@ -117,7 +117,7 @@ So how do you insert HTML elements like ```<div>```, ```<span>``` inside the DOM
 
 ```
 
-#### Using the append functionality
+:fire: #### Using the append functionality
 
 ```Javascript
 <script>
@@ -130,7 +130,7 @@ d3.select('.item')   //selects the element with the class name .item, similiarly
 </html>
 ```
 
-#### Using the insert functionality - To Insert a DOM element in-between another DOM element
+:fire: #### Using the insert functionality - To Insert a DOM element in-between another DOM element
 
 ```Javacript
 d3.select('#chart')   
@@ -138,7 +138,7 @@ d3.select('#chart')
   .html('<strong>selection</strong>')
 ```
 
-#### Using the remove functionality - To Delete a DOM element
+:fire: #### Using the remove functionality - To Delete a DOM element
 
 ```Javascript
 d3.select('#chart .item:nth-child(3)')
