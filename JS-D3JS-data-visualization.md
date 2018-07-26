@@ -255,10 +255,39 @@ d3.selectAll('.item')
   
 // Now in the above you are only passing a single variable which is background, in the below code lets see how to pass an object
   
+//In myStyles you are passing multiple objects {}, {}
+
+var myStyles = [
+  { width: 200,
+    color: '#A57706'},
+  { width: 230,
+    color: '#BD3613'},
+  { width: 220,
+    color: '#D11C24'},
+  { width: 290,
+    color: '#C61C6F'},
+  { width: 236,
+    color: '#595AB7'},
+  { width: 230,
+    color: '#2176C7'}
+];  
+   
+
+// In style function you are passing a set of objects {}, {}, {}. style({}, {} ,{})
+// Remember an object can have variables and functions
+// myStyles is passed to data as data(myStyles) and you can access the values inside myStyles as ```myStyles.color``` or ```myStyles.width```
+// function(d) -> d contains the value inside the data function ie. ```data(myStyles)```
+
 d3.selectAll('.item')
   .data(myStyles)
-  .style('background', function(d) {
-    return d
+  .style({
+     'color'; 'white',
+     'background' : function(d) {
+        return d.color;
+   },
+    width: function(d) {
+      return d.width + 'px';
+    }
   })
   
 
