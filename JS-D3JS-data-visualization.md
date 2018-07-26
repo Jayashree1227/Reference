@@ -87,6 +87,8 @@ d3.select('.item:nth-child(2n)').text('select')
 
 ## Inserting HTML elements in DOM
 
+So how do you insert HTML elements like ```<div>```, ```<span>``` inside the DOM?
+
 ```
 <!DOCTYPE html>
 <html>
