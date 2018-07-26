@@ -212,4 +212,37 @@ Result : 18
 
 ```
 
+/*-----------------Callback function in Javascript------------------------------*/
+
+```Javascript
+
+var x = function(){
+  console.log("This is x function");
+}
+
+var y = function(n){
+  console.log("This is y function");
+  n();
+}
+
+y(x);
+
+```
+
+The above code can be written like this
+
+
+```Javascript
+function y(n, callback){
+  console.log("This is y function" +n);
+  callback();
+}
+
+y('apple', function() {
+	console.log("this is the callback function");
+});
+
+
+```
+
 ---
