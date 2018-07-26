@@ -1,4 +1,4 @@
-## Selecting DOM elements in D3
+&#x1F4D7; ## Selecting DOM elements in D3
 
 You can refer the below section to select HTML dom elements in D3. Selecting an element is provided by default in D3 and it is not necessary to use JQuery selector to select elements in D3
 
