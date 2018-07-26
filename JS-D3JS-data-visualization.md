@@ -82,3 +82,84 @@ d3.select('.item:nth-child(n+3)').text('select')
 ```Javascript
 d3.select('.item:nth-child(2n)').text('select')
 ```
+
+---
+
+```
+## Inserting HTML elements in DOM
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="container">
+	<h2>D3 Graphic</h2>
+	<section id="chart">
+		<div class="item">John</div>
+		<div class="item">James</div>
+		<div class="item">Jeril</div>
+		<div class="item">Jose</div>
+		<div class="item">Jany</div>
+	</section>
+</div>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+<script>
+
+//using the append functionality
+
+d3.select('.item')   //selects the element with the class name .item, similiarly you can use #chart
+  .append('div')
+  .html('<strong>selection</strong>')
+
+</script>
+
+</body>
+</html>
+
+//using the insert functionality - To insert an element inbetween an element
+
+d3.select('#chart')   
+  .insert('span', ':nth-child(3)')
+  .html('<strong>selection</strong>')
+
+//using the remove functionality - will delete a DOM element
+
+
+d3.select('#chart .item:nth-child(3)')
+  .remove()
+
+```
+
+### BROWSER OUTPUT: 
+
+A new element named selection is added
+
+John
+**selection**
+James
+Jeril
+Jose
+Jany
+
+### HTML OUTPUT for APPEND: 
+
+The above code selects the first item and creates a ```<div>``` under it and then creates a ```<strong>``` element under the ```<div>```
+
+```
+  <div class="item">John</div>  
+  <div>
+   	 <strong>selection</strong>
+  </div>
+  <div class="item">James</div>
+  <div class="item">Jeril</div>
+  <div class="item">Jose</div>
+  <div class="item">Jany</div>
+```
+
+---
