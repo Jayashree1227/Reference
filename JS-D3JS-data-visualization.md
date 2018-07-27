@@ -294,3 +294,89 @@ d3.selectAll('.item')
 ```
 
 ---
+
+## Creating DIV elements dynamically without using HTML tags
+
+In the earlier section we created various DIV elements under ```<section id="chart">```. Refer the code below
+
+```
+<section id="chart">
+   <div class="item">John</div>
+   <div class="item">James</div>
+   <div class="item">Jeril</div>
+   <div class="item">Jose</div>
+   <div class="item">Jany</div>
+   <div class="item">George</div>
+</section>
+```
+
+Now in this section we are not going to create those ```<DIV>``` elements dynamically and our HTML code looks like shown below
+
+```
+<section id="chart">
+
+</section>
+```
+
+#### D3.JS Code
+
+Here we put those contents in HTML inside the below javascript object
+
+```Javascript
+
+var myStyles = [
+  { width: 200,
+    name: 'John',
+    color: '#A57706'},
+  { width: 230,
+    name: 'James',
+    color: '#BD3613'},
+  { width: 220,
+    name: 'Jeril',
+    color: '#D11C24'},
+  { width: 290,
+    name: 'Jose',
+    color: '#C61C6F'},
+  { width: 236,
+    name: 'Jany',
+    color: '#595AB7'},
+  { width: 230,
+    name: 'George',
+    color: '#2176C7'}
+];  
+
+//```enter()``` function goes through all pieces of data and adds a ```<DIV>``` whenever we're entering one of these pieces of data
+
+//the below code says d3, select the chart element and bind DIV's inside the chart element. The DIV's are inserted by the ```enter()``` function. So selectAll selects all the DIV which is created by the ```enter()``` function.
+
+d3.selectAll('#chart').selectAll('div')
+  .data(myStyles)
+  .enter().append('div') //goes through all pieces of data and enters a DIV
+  .classed('item', true) //true toggles the item class on - highlights the item which is hovered
+  .text(function(d) {
+     return d.name;
+   }
+  .style({
+     'color'; 'white',
+     'background' : function(d) {
+        return d.color;
+   },
+    width: function(d) {
+      return d.width + 'px';
+    }
+  }).exit() // exit function is always used when an enter command is used.
+
+```
+
+// The above code will create a ```<DIV>``` like shown below
+
+```
+<section id="chart">
+  <div class="item" style="color:white; width:200px; background:#A57706"> John </div>
+  <div class="item" style="color:white; width:230px; background:#BD3613"> James </div>
+  <div class="item" style="color:white; width:220px; background:#D11C24"> Jeril </div>
+  <div class="item" style="color:white; width:220px; background:#C61C6F"> Jose </div>
+  ...
+  ...
+</section>
+```
