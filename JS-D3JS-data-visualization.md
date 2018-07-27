@@ -320,7 +320,7 @@ Now in this section we are not going to create those ```<DIV>``` elements dynami
 
 #### D3.JS Code
 
-Here we put those contents in HTML inside the below javascript object
+Here we put those contents in HTML inside the below javascript object. We will be using the ```enter()``` function to insert HTML elements dynamically.
 
 ```Javascript
 
