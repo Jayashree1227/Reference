@@ -78,4 +78,11 @@
 ---
 
 # &#x1F4D7; Using GitHub
+
 * [Git Reference](https://github.com/jeriljose/Reference/blob/gh-pages/Github-Using-github.md)
+
+# &#x1F4D7; Copywriting Tricks
+
+* [Writing effective emotional titles](https://en.kueez.com/) - You can use them on landing pages
+
+
