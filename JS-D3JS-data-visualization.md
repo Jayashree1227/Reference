@@ -295,7 +295,7 @@ d3.selectAll('.item')
 
 ---
 
-## Creating DIV elements dynamically without using HTML tags
+## &#x1F4D7; Creating DIV elements dynamically without using HTML tags
 
 In the earlier section we created various DIV elements under ```<section id="chart">```. Refer the code below
 
