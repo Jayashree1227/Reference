@@ -83,6 +83,6 @@
 
 # &#x1F4D7; Copywriting Tricks
 
-* [Writing effective emotional titles](https://en.kueez.com/) - You can use them on landing pages
+* [Writing effective emotional titles](https://en.kueez.com/) - You can use them for QUIZ Style/ Multiple Questions landing pages
 
 
