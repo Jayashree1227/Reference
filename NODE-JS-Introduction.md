@@ -1,4 +1,4 @@
-# Introduction
+# :beginner: Introduction
 
 Ryan Dahl first introduction of Node.js
 
@@ -34,7 +34,7 @@ node index.js
 
 ---
 
-## STEP 1: Starting a http server
+# :beginner: STEP 1: Starting a http server
 
 ```Javascript
 
@@ -66,7 +66,7 @@ curl localhost:3000
 
 ---
 
-## STEP 2: Parsing Request Paths - Using the URL library
+# :beginner: STEP 2: Parsing Request Paths - Using the URL library
 
 /* ---------- 
 
@@ -125,7 +125,7 @@ server.listen(3000,function(){
 
 ---
 
-## STEP 3: Parsing HTTP Methods: 
+# :beginner: STEP 3: Parsing HTTP Methods: 
 
 /* Now here what we will do is, when a request comes in we want to figure out which http method the user is requesting */
 
