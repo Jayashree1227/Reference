@@ -211,7 +211,7 @@ d3.selectAll('.item:nth-child(3)')
 
 ---
 
-## Binding data to the DOM
+## &#x1F4D7; Binding data to the DOM
 
 Here we will see on how to use the ```data()``` function in data.js
 
