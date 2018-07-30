@@ -61,6 +61,7 @@
 
 ## Javascript & JSON
 * [Javascript & JSON](https://github.com/jeriljose/Reference/blob/gh-pages/JS-JSON%26JavaScript.md)
+* [Working with Javascript Objects](https://github.com/jeriljose/Reference/blob/gh-pages/JS-javascript-objects.md)
    
 ## JavaScript Libraries:
    
