@@ -85,4 +85,6 @@
 
 * [Writing effective emotional titles](https://en.kueez.com/) - You can use them for QUIZ Style/ Multiple Questions landing pages
 
+# Paid Ads
 
+* [Blocking by ISP](https://charlesngo.com/blockingfaketraffic/)
