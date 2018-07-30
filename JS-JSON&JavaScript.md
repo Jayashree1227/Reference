@@ -7,20 +7,22 @@ eg:
 ```Javascript
 
 {
-	"name"  : "Jeril",
-	"position" : "staff Author",
-	"cources" : [
-       "Javascript and AJAX",
-       "Building Facebook Applications",
-       "jQuery Mobile Web Apps"
-	 ]
+  "name"     : "Jeril",
+  "position" : "staff Author",
+  "cources"  : [
+     "Javascript and AJAX",
+     "Building Facebook Applications",
+     "jQuery Mobile Web Apps"
+   ]
 }
 
 
 You can pass the above JSON object and pass it to a Javascript object using the function
 
 var info = JSON.Parse(data);
-var name = info.name; //to get the name
+//once you convert the above JSON to a javascript object then you can use the (DOT) notation to access the value (eg: info.name)
+var name = info.name; //to get the name or
+var name = info[name]
 var course = info.courses[0] //prints -> Javascript and AJAX
 
 ```
