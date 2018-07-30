@@ -87,4 +87,4 @@
 
 # Paid Ads
 
-* [Blocking by ISP](https://charlesngo.com/blockingfaketraffic/)
+* [Blocking by ISP](https://charlesngo.com/blockingfaketraffic/) - Find all datacenter IPs and blacklist them
