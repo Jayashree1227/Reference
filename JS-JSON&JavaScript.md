@@ -58,6 +58,8 @@ var info = {
 	}
 };
 
+---
+
 ## JSON validator
 
 You can use jsoneditoronline.org to validate your JSON file and check for errors.
