@@ -18,7 +18,39 @@ var info = {
 
 Try this in the Javascript console
 
+```
 > info
+```
 
 returns object
+
+```
+> info.full_name
+```
+
+returns 
+
+Ray Villalobos
+
+```
+info.links[1].facebook
+```
+
+returns 
+
+http://facebook.com/iviewsource
+
+## To Modify variables
+
+info.full_name = "Eric"
+
+## To delete an element
+
+```
+delete(info.title);
+```
+
+returns 
+
+true
 
