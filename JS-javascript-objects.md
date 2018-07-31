@@ -40,9 +40,13 @@ returns
 
 http://facebook.com/iviewsource
 
+---
+
 ## To Modify variables
 
 info.full_name = "Eric"
+
+---
 
 ## To delete an element
 
