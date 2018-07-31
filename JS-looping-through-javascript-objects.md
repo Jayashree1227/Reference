@@ -17,9 +17,9 @@ var info = {
 "links" : {
     "blog"     : "http://iviewsource.com",
     "facebook" : "http://facebook.com/iviewsource",
-		"youtube"  : "http://www.youtube.com/planetoftheweb",
-		"podcast"  : "http://feeds.feedburner.com/authoredcontent",
-		"twitter"  : "http://twitter.com/planetoftheweb" 
+    "youtube"  : "http://www.youtube.com/planetoftheweb",
+    "podcast"  : "http://feeds.feedburner.com/authoredcontent",
+    "twitter"  : "http://twitter.com/planetoftheweb" 
 	}
 };
 
