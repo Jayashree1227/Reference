@@ -48,8 +48,8 @@ update.innerHTML = output;
 
 ## Result: The above code prints
 
-blog
-facebook
-youtube
-podcast
-twitter
+* blog
+* facebook
+* youtube
+* podcast
+* twitter
