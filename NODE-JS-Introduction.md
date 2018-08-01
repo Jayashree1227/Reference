@@ -228,6 +228,6 @@ To run the code
 
 returns
 
-Request recieved on path: foo/bar with method: get and with these query string paramaters ```{fiss:'buzz'}```
+Request recieved on path: foo/bar with method: get and with these query string parameters ```{fiss:'buzz'}```
 
 ---
