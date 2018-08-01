@@ -218,6 +218,8 @@ server.listen(3000,function(){
     console.log("The server is listening on port 3000");
 })
 
+```
+
 To run the code
 
 > node index.js
@@ -227,7 +229,5 @@ To run the code
 returns
 
 Request recieved on path: foo/bar with method: get and with these query string paramaters ```{fiss:'buzz'}```
-
-```
 
 ---
