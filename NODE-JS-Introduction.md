@@ -192,3 +192,42 @@ Request recieved on path: foo/bar with method: get
 /* If the client wants to establish a connection with the server then we can use the CONNECT method */
 
 ---
+
+## :beginner: STEP 4: How to parse query string from a URL
+
+```
+var http = require('http');
+var url = require('url');
+
+var server = http.createServer(function(req,res){
+    var parsedURL = url.parse(req.url, true);
+    var path = parsedURL.pathname; 
+    var trimmedPath = path.replace(/^\/+|\/+$/g,'');
+
+    // the query string is stored in the variable queryStringObject
+    var queryStringObject = parsedURL.query;
+
+    var method = req.method.toLowerCase();
+   
+    res.end('Hellow World\n');
+    console.log('Request recieved on path: '+trimmedPath + 'with method: ' + method 'and with these query string paramaters', queryStringObject);
+})
+
+
+server.listen(3000,function(){
+    console.log("The server is listening on port 3000");
+})
+
+To run the code
+
+> node index.js
+
+> curl localhost:3000/foo?fiss=buzz
+
+returns
+
+Request recieved on path: foo/bar with method: get and with these query string paramaters ```{fiss:'buzz'}```
+
+```
+
+---
