@@ -234,6 +234,8 @@ Request recieved on path: foo/bar with method: get and with these query string p
 
 ## :beginner: STEP 5: Parsing the HTTP headers
 
+!(http)[images/http.jpg]
+
 So what are http headers? 
 
 HTTP headers allow the client and the server to pass additional information with the request or the response. They are in the form of name and value pairs seperated by a single colon. HTTP headers are the code that transfers data between a Web server and a browser. HTTP headers are mainly intended for the communication between the server and client in both directions.
@@ -303,5 +305,6 @@ apples: 'oranges'
 fizz: 'buzz'
 
 ```
+
 
 ---
