@@ -232,7 +232,7 @@ Request recieved on path: foo/bar with method: get and with these query string p
 
 ---
 
-## Parsing the HTTP headers
+## :beginner: STEP 5: Parsing the HTTP headers
 
 So what are http headers? 
 
