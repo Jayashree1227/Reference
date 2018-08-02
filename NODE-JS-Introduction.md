@@ -231,3 +231,77 @@ returns
 Request recieved on path: foo/bar with method: get and with these query string parameters ```{fiss:'buzz'}```
 
 ---
+
+## Parsing the HTTP headers
+
+So what are http headers? 
+
+HTTP headers allow the client and the server to pass additional information with the request or the response. They are in the form of name and value pairs seperated by a single colon. HTTP headers are the code that transfers data between a Web server and a browser. HTTP headers are mainly intended for the communication between the server and client in both directions.
+
+
+```Javascript
+
+var http = require('http');
+var url = require('url');
+
+var server = http.createServer(function(req,res){
+    var parsedURL = url.parse(req.url, true);
+    var path = parsedURL.pathname; 
+    var trimmedPath = path.replace(/^\/+|\/+$/g,'');
+    
+    var queryStringObject = parsedURL.query;
+
+    var method = req.method.toLowerCase();
+
+    // Get the HTTP headers which the user might have sent as an object
+
+    var headers = req.headers;
+
+   
+    res.end('Hellow World\n');
+    
+    // Log the header
+    console.log('Request recieved with these headers:', headers);
+})
+
+
+server.listen(3000,function(){
+    console.log("The server is listening on port 3000");
+})
+
+```
+
+> node index.js
+
+So what is an header. Information can be injected to headers and the above code prints the header information. The result might look like this
+
+
+### OUTPUT: 
+
+```
+{host: 'localhost:3000',
+ connection: 'keep-alive',
+ foo: 'bar',
+ 'cache-content': 'no-cache',
+ red: 'blue',
+ apples: 'oranges',
+ fizz: 'buzz',
+ 'user-agent': 'Mozilla/5.0 (Macintosh: Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, litre Gecko) Chrome/63.0.3239.132 Safari/537.36',
+ 'postman-token': '2224603f-1593-fdc7-6163ac036b3d',
+ accept: '*/*',
+ 'accept-encoding': 'gzip, deflate, br',
+ 'accept-language': 'en-US,en;q-0.9'}
+ 
+ ```
+
+In the above header the information that we have injected are
+
+```
+foo: 'bar',
+red: 'blue',
+apples: 'oranges'
+fizz: 'buzz'
+
+```
+
+---
