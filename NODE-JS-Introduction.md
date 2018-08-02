@@ -234,7 +234,7 @@ Request recieved on path: foo/bar with method: get and with these query string p
 
 ## :beginner: STEP 5: Parsing the HTTP headers
 
-!(http)[images/http.jpg]
+![http](images/http.jpg)
 
 So what are http headers? 
 
