@@ -45,6 +45,7 @@ module.exports.addNote = () => {
    console.log('hello world');
    return 'New note';
 }; 
+```
 
 To print the value from notes.js to index.js, write the below code in index.js
 
