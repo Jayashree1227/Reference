@@ -2,7 +2,7 @@
 
 To require an module from npm use
 
-```
+```Javascript
   const fs = require('fs');
 ```
 
@@ -40,6 +40,7 @@ module.exports.addNote = function () {
 
 You can also write the above code using arrow function as shown below. You are using => symbol instead of the keyword function
 
+```Javascript
 module.exports.addNote = () => {
    console.log('hello world');
    return 'New note';
@@ -47,8 +48,10 @@ module.exports.addNote = () => {
 
 To print the value from notes.js to index.js, write the below code in index.js
 
+```Javascript
 var res = notes.addNote();
 console.log(res);
+```
 
 returns -> New note
 
