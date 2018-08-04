@@ -59,11 +59,12 @@
 ## Mixing Javascript & HTML Sample Code
 * [Mixing Javascript & HTML](https://github.com/jeriljose/Reference/blob/gh-pages/mixing%20javascript%20and%20HTML.md)
 
-## Javascript & JSON
+## Javascript & JSON, Arrays, Objects
 * [Javascript & JSON](https://github.com/jeriljose/Reference/blob/gh-pages/JS-JSON%26JavaScript.md)
 * [Working with Javascript Objects](https://github.com/jeriljose/Reference/blob/gh-pages/JS-javascript-objects.md)
 * [Looping through Javascript Objects](https://github.com/jeriljose/Reference/blob/gh-pages/JS-looping-through-javascript-objects.md)
-   
+* [Access Javascript objects in arrays](https://stackoverflow.com/questions/51686858/how-to-access-javascript-objects-in-arrays)
+
 ## JavaScript Libraries:
    
 > :boom: All libraries can be found on [microjs](http://microjs.com)
