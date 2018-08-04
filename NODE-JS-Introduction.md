@@ -16,7 +16,6 @@ In the notes.js file
 
 ```Javascript
 console.log('Starting notes.js');
-
 module.exports.age=25;
 ```
 
