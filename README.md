@@ -81,6 +81,7 @@
 # &#x1F4D7; NODE.JS
 
 * [Introduction to Node](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-JS-Introduction.md)
+* [Using require in nodejs - Including npm modules](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Using%20require%20in%20nodejs.md)
 
 ---
 
