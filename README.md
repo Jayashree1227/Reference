@@ -87,7 +87,7 @@
 * [Organizing nodejs code using module.exports](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Organizing%20nodejs%20using%20module.exports.md)
 * [Building a restful api in nodejs - From pirple.thinkific.com](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Building-restful-api.md)
 * [Creating basic route using ExpressJS](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-creating-basic-route-using-express.md)
-* [Serving static HTML files using express.static in nodejs]()
+* [Serving static HTML files using express.static in nodejs](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Serving-static-files-using-nodejs.md)
 
 ---
 
