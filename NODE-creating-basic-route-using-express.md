@@ -7,6 +7,7 @@ var app = express();
 
 app.get('/', (req, res) => {
   // res.send('<h1>Hello Express!</h1>');
+  //this is the way you can pass an object. Express takes the object and converts it to JSON and sends it back to browser.
   res.send({
     name: 'Andrew',
     likes: [
