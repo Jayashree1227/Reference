@@ -16,8 +16,8 @@ app.use(express.static(__dirname + '/public'));
 
 
 
-app.get('/about', (req, res) => {
-  res.send('About Page');
+app.get('/', (req, res) => {
+  res.send('Welcome Page');
 });
 
 
