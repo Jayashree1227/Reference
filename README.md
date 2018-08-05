@@ -85,6 +85,7 @@
 * [Using nodemon and automatically reloading the browser](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-automatically-reloading-the-browser-nodemon.md)
 * [Parsing command line arguments in nodejs using yargs & process.argv](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Parsing-command-line-arguments.md)
 * [Organizing nodejs code using module.exports](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Organizing%20nodejs%20using%20module.exports.md)
+* [Building a restful api in nodejs - From pirple.thinkific.com](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Building-restful-api.md)
 
 ---
 
