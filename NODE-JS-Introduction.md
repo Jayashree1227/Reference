@@ -58,7 +58,7 @@ returns -> New note
 
 ---
 
-## To automaically reload the browser 
+## :beginner: To automaically reload the browser 
 
    If you make any changes to your node application and if you want to automatically reload the web server use nodemon. We will using nodemon only during local development and not in production.
 
