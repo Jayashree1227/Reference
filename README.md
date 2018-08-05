@@ -82,6 +82,7 @@
 
 * [Introduction to Node](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-JS-Introduction.md)
 * [Using require in nodejs - Including npm modules](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Using%20require%20in%20nodejs.md)
+* [Using nodemon and automatically reloading the browser](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-automatically-reloading-the-browser-nodemon.md)
 
 ---
 
