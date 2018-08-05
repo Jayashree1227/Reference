@@ -84,6 +84,7 @@
 * [Using require in nodejs - Including npm modules](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Using%20require%20in%20nodejs.md)
 * [Using nodemon and automatically reloading the browser](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-automatically-reloading-the-browser-nodemon.md)
 * [Parsing command line arguments in nodejs using yargs & process.argv](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Parsing-command-line-arguments.md)
+* [Organizing nodejs code using module.exports](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Organizing%20nodejs%20using%20module.exports.md)
 
 ---
 
