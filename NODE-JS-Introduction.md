@@ -150,7 +150,7 @@ node app.js add --title=secrets
 
 ---
 
-## :beginner: Design pattern - Organizing your code in nodejs
+## :beginner: Design pattern - Organizing your code in nodejs - This design pattern is similiar to closure
 
 //code for app.js which is the entry file
 
