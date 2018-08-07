@@ -78,7 +78,9 @@
 
 ---
 
-# &#x1F4D7; NODE.JS [Pirple](https://pirple.thinkific.com), Udemy, Lynda
+# &#x1F4D7; NODE.JS
+
+   Reference: [Pirple](https://pirple.thinkific.com), Udemy, Lynda
 
 * [Introduction to Node](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-JS-Introduction.md)
 * [Using require in nodejs - Including npm modules](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Using%20require%20in%20nodejs.md)
