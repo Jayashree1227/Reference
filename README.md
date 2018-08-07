@@ -88,9 +88,9 @@
 * [Parsing command line arguments in nodejs using yargs & process.argv](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Parsing-command-line-arguments.md)
 * [Organizing nodejs code using module.exports](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Organizing%20nodejs%20using%20module.exports.md)
 * [Building a restful api in nodejs - From pirple.thinkific.com](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Building-restful-api.md)
-* [Creating basic route using ExpressJS](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-creating-basic-route-using-express.md)
-* [Serving static HTML files using express.static in nodejs](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Serving-static-files-using-nodejs.md)
-
+* [Creating basic route using ExpressJS and ```app.send()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-creating-basic-route-using-express.md)
+* [Serving static HTML files using ExpressJs and ```express.static()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Serving-static-files-using-nodejs.md)
+* [Serving dynamic files using using ExpressJs and ```app.render()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-rendering-dynamic-HTML-files.md)
 ---
 
 # &#x1F4D7; Using GitHub
