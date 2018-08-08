@@ -64,6 +64,7 @@
 * [Working with Javascript Objects](https://github.com/jeriljose/Reference/blob/gh-pages/JS-javascript-objects.md)
 * [Looping through Javascript Objects](https://github.com/jeriljose/Reference/blob/gh-pages/JS-looping-through-javascript-objects.md)
 * [Access Javascript objects in arrays](https://stackoverflow.com/questions/51686858/how-to-access-javascript-objects-in-arrays)
+* [Using foreach and accessing JS object values](https://github.com/jeriljose/Reference/blob/gh-pages/JS-foreach-accessing-values-using-foreach.md)
 
 ## JavaScript Libraries:
    
