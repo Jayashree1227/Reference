@@ -91,7 +91,7 @@
 * [Creating basic route using ExpressJS and ```app.get()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-creating-basic-route-using-express.md)
 * [Serving static HTML files using ExpressJs and ```app.use()``` & ```express.static()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Serving-static-files-using-nodejs.md)
 * [Serving dynamic files using using ExpressJs and ```app.render()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-rendering-dynamic-HTML-files.md)
-* [Serving dynamic files & partials using ExpressJs](https://github.com/jeriljose/Reference/blob/gh-pages/JSON-rendering-dynamic-template-partials.md)
+* [Serving dynamic files & partials(header partial, footer partial etc) using ExpressJs](https://github.com/jeriljose/Reference/blob/gh-pages/JSON-rendering-dynamic-template-partials.md)
 ---
 
 # &#x1F4D7; Using GitHub
