@@ -95,7 +95,7 @@
 * [Serving dynamic files & partials(header partial, footer partial etc) using ExpressJs - Handle Bar functions used ```hbs.registerPartials()```, ```hbs.registerHelper()```](https://github.com/jeriljose/Reference/blob/gh-pages/JSON-rendering-dynamic-template-partials.md)
 ---
 
-# &#x1F4D7; PYTHON
+# &#x1F4D7; PYTHON - For Web Scraping & Data Analysis
 
 *
 
