@@ -75,3 +75,12 @@ y =8
 if x>y:
 	print('x')
 ```
+
+### If else statement
+
+```Python
+if number == 0:
+	print("hello")
+else:
+	print("How are you")
+```
