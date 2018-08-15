@@ -66,7 +66,7 @@ for element in a:
 	print(element)
 ```
 
-### If statemet
+### If statement
 
 ```Python
 x = 5
