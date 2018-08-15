@@ -52,3 +52,23 @@ print(abs(exNum1))
 
 ```
 ---
+
+## Loops in Python
+
+### For loop 
+
+To print each element in a
+
+a = ["banana", "apple", "microsoft"]
+
+for element in a:
+	print(element)
+
+### If statemet
+
+x = 5
+y =8
+
+if x>y:
+	print('x')
+
