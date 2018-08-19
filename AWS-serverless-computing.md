@@ -17,21 +17,26 @@ These are the services that we would be using from Amazon aws
 
 ## Configuring Serverless
 
-Install aws-cli and serverless globally
+1. Install aws-cli and serverless globally
 
 ```
 npm install -g aws-cli serverless
 ```
 
-Then create a user in AWS and create a secret key and access key for the same user.
+2. Then create a user in AWS and create a secret key and access key for the same user.
 
-There are variety of cloud platforms that serverless can connect to like Google Cloud platform, AWS etc. To make serverless know what we need to use Amazon web services use the command below.
+3. There are variety of cloud platforms that serverless can connect to like Google Cloud platform, AWS etc. To make serverless know what we need to use Amazon web services use the command below.
 
 * username: serverless-admin
 * Access Key: AKIAIMKE5NA4KOZEU44A
 * Secret Key: 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
-* shortform for serverless is sls
 
 ```
-sls config credentials --provider aws --key AKIAIMKE5NA4KOZEU44A --secret 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 --profile serverless-admin
+serverless config credentials --provider aws --key AKIAIMKE5NA4KOZEU44A --secret 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 --profile serverless-admin
+```
+
+4. Then setup a serverless files for nodejs using a default boilerplate. Using the command below you can create a severless boilerplate template. The below syntax will create 3 files
+
+```
+serverless create --template aws-nodejs
 ```
