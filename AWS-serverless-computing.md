@@ -40,3 +40,52 @@ serverless config credentials --provider aws --key AKIAIMKE5NA4KOZEU44A --secret
 ```
 serverless create --template aws-nodejs
 ```
+
+The boiler plate will create the following files
+
+* handler.js
+* serverless.yml
+* .gitignore
+
+/* ---------------------------- handler.js ---------------------------- */
+
+```Javascript
+'use strict';
+
+//event is anything that we want to pass to LAMBDA
+//context gives us information about the function like time taken for execution etc
+//callback is a function itself
+//callback takes 2 arguments
+
+module.exports.hello = async (event, context, callback) => {
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Go Serverless v1.0! Your function executed successfully!',
+      input: event,
+    }),
+  };
+
+  callback(null, response)
+
+  // Use this code if you don't use the http event with the LAMBDA-PROXY integration
+  // return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
+};
+
+```
+
+/* ------------------------serverless.yml--------------------------------*/
+
+```
+service: wut-up-world
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+include:
+  - utils/**
+functions:
+  hello:
+    handler: handler.hello
+```
