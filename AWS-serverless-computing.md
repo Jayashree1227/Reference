@@ -83,6 +83,7 @@ provider:
   runtime: nodejs8.10
   stage: dev
   region: us-east-1
+  profile: serverless-admin
 include:
   - utils/**
 functions:
