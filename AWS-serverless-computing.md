@@ -30,7 +30,8 @@ There are variety of cloud platforms that serverless can connect to like Google 
 * username: serverless-admin
 * Access Key: AKIAIMKE5NA4KOZEU44A
 * Secret Key: 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
+* shortform for serverless is sls
 
 ```
-serverless config credentials --provider aws --key AKIAIMKE5NA4KOZEU44A --secret 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 --profile serverless-admin
+sls config credentials --provider aws --key AKIAIMKE5NA4KOZEU44A --secret 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 --profile serverless-admin
 ```
