@@ -89,3 +89,27 @@ functions:
   hello:
     handler: handler.hello
 ```
+
+:point_right: Now you will have to create a simple REST endpoint. To do that you will have to install a package called serverless-offline
+
+```
+npm init -y
+npm install  --save-dev serverless-offline
+```
+
+then, add this plugin in serverless.yml file as shown below
+
+```
+service: wut-up-world # NOTE: update this with your service name
+plugins:
+  - serverless-offline
+```
+
+Next add routes or API endpoints. To add endpoints in API GATEWAY add the following code in serverless.yml file
+
+```
+events:
+      - http:
+          path: message
+          method: get
+```
