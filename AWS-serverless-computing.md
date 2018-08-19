@@ -17,4 +17,8 @@ These are the services that we would be using from Amazon aws
 
 ## Configuring Serverless
 
-> npm install -g aws-cli serverless
+Install aws-cli and serverless globally
+
+```
+npm install -g aws-cli serverless
+```
