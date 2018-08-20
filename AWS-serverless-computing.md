@@ -114,3 +114,9 @@ events:
           path: message
           method: get
 ```
+
+To deploy the code and push it to Amazon AWS use the command below
+
+```
+serverless deploy
+```
