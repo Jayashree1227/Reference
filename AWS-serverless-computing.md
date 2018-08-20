@@ -126,6 +126,14 @@ To check the logs use the below syntax. The below will tell you the time taken t
 * hello is the function name
 * dev referes to development environment
 * 10 referes to code executed 10 minutes back
+
 ```
 serverless logs -f hello -s dev --startTime 10
 ```
+
+In order to get the realtime logs you can use
+
+```
+serverless logs -f hello -s dev -t
+```
+
