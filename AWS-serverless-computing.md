@@ -120,3 +120,12 @@ To deploy the code and push it to Amazon AWS use the command below
 ```
 serverless deploy
 ```
+
+To check the logs use the below syntax. The below will tell you the time taken to execute the code, billed duration for the function etc
+
+* hello is the function name
+* dev referes to development environment
+* 10 referes to code executed 10 minutes back
+```
+serverless logs -f hello -s dev --startTime 10
+```
