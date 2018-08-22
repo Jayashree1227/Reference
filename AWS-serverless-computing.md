@@ -73,6 +73,26 @@ module.exports.hello = async (event, context, callback) => {
 };
 
 ```
+/* ------------------------------------- Another example of a Lambda function -------------------- */
+
+```Javascript
+exports.handler = (event, context, callback) => {
+    
+    mqfunc1(event, callback);
+    
+};
+
+var mqfunc1 = function(event, callback) {
+    let a = event.a;
+    let b = event.b;
+    let c = a+b;
+    apple(c, callback);
+};
+
+var apple = function(c, callback){
+    callback(null, "Hello Jeril" + c);
+};
+```
 
 /* ------------------------serverless.yml--------------------------------*/
 
