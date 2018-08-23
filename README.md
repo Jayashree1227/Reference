@@ -88,7 +88,17 @@
 * [Using nodemon and automatically reloading the browser](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-automatically-reloading-the-browser-nodemon.md)
 * [Parsing command line arguments in nodejs using yargs & process.argv](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Parsing-command-line-arguments.md)
 * [Organizing nodejs code using module.exports](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Organizing%20nodejs%20using%20module.exports.md)
+
+## REST API's
+
+> REST API's can be created using Pure Node, Express Framework or Severless(using AWS LAMBDA)
+
+## REST API using Pure NODE
+
 * [Building a restful api in nodejs - From pirple.thinkific.com](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Building-restful-api.md)
+
+## REST API using Express Framework
+
 * [Creating basic route using ExpressJS and ```app.get()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-creating-basic-route-using-express.md)
 * [Serving static HTML files using ExpressJs and ```app.use()``` & ```express.static()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Serving-static-files-using-nodejs.md)
 * [Serving dynamic files using using ExpressJs and ```app.render()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-rendering-dynamic-HTML-files.md)
