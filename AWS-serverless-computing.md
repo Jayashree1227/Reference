@@ -14,8 +14,15 @@ These are the services that we would be using from Amazon aws
      With the help of API KEY we can make sure that only with a valid key the API can be accessed. For each usage of API there are charges.      So always restrict the API with the help of key. You can also set usage plan for this API key. 
      
      You can also set that this API can be used only 1000 times per second. You can also set custom domains for your API. You can also set      log permissions for API usage
+     
+> Note: You can use various frameworks like serverless, Apex, SAM, Terraform, CF to deploy Lambda functions from command line. 
 
-## Configuring Serverless
+## Configuring Lambda using Apex Framework
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/u7spDymJqmc/0.jpg)](http://www.youtube.com/watch?v=u7spDymJqmc)
+
+
+## Configuring Lambda using Serverless Framework
 
 :point_right: Install aws-cli and serverless globally
 
