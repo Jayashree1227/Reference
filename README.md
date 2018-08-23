@@ -122,8 +122,8 @@
 
 # Using Sublime
  
-  SublimeText - Terminal Access - CTRL + SHIFT + T
-  BrowserSync - Live loading
+  * SublimeText - Terminal Access - CTRL + SHIFT + T
+  * BrowserSync - Live loading
   
 ---
 
