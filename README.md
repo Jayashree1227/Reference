@@ -125,6 +125,7 @@
   * SublimeText - Terminal Access - CTRL + SHIFT + T
   * BrowserSync - Live loading
   * Emmet Installed - Cheat Sheet [here](https://docs.emmet.io/cheat-sheet/)
+  * HTML-CSS-JS Prettify - Select the whole code then right click the mouse and choose HTML/CSS/JS Prettify 
   
 ---
 
