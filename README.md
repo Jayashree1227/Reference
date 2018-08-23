@@ -124,6 +124,7 @@
  
   * SublimeText - Terminal Access - CTRL + SHIFT + T
   * BrowserSync - Live loading
+  * Emmet Installed - Cheat Sheet [here](https://docs.emmet.io/cheat-sheet/)
   
 ---
 
