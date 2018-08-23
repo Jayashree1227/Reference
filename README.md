@@ -120,6 +120,13 @@
 * [AWS - Serverless Computing with API Gateway and Lambda](https://github.com/jeriljose/Reference/blob/gh-pages/AWS-serverless-computing.md)
 ---
 
+# Using Sublime
+ 
+  SublimeText - Terminal Access - CTRL + SHIFT + T
+  BrowserSync - Live loading
+  
+---
+
 # &#x1F4D7; Using GitHub
 
 * [Git Reference](https://github.com/jeriljose/Reference/blob/gh-pages/Github-Using-github.md)
