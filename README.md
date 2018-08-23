@@ -97,6 +97,10 @@
 
 * [Building a restful api in nodejs - From pirple.thinkific.com](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-Building-restful-api.md)
 
+## REST API using AWS LAMBDA
+
+* [AWS - Serverless Computing with API Gateway and Lambda](https://github.com/jeriljose/Reference/blob/gh-pages/AWS-serverless-computing.md)
+
 ## REST API using Express Framework
 
 * [Creating basic route using ExpressJS and ```app.get()```](https://github.com/jeriljose/Reference/blob/gh-pages/NODE-creating-basic-route-using-express.md)
