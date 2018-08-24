@@ -117,6 +117,7 @@
 
 # &#x1F4D7; AMAZON AWS
 
+* [AWS CLI COMMANDS](https://github.com/jeriljose/Reference/blob/gh-pages/aws-CLI-commands.md)
 * [AWS - Serverless Computing with API Gateway and Lambda](https://github.com/jeriljose/Reference/blob/gh-pages/AWS-serverless-computing.md)
 ---
 
