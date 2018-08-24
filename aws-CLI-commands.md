@@ -11,3 +11,7 @@ To configure private key and access key
 
 * Default region: us-east-1
 * Default Output Format: table
+
+## AWS S3 BUCKETS
+
+> aws s3 ls - lists all buckets
