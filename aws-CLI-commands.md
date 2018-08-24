@@ -14,4 +14,4 @@ To configure private key and access key
 
 ## AWS S3 BUCKETS
 
-> aws s3 ls - lists all buckets
+> aws s3 ls -> lists all buckets
