@@ -8,3 +8,6 @@ To use AWS CLI, first download and install AWS CLI for windows
 To configure private key and access key
 
 > aws configure
+
+* Default region: us-east-1
+* Default Output Format: table
