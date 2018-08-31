@@ -15,3 +15,4 @@ To configure private key and access key
 ## AWS S3 BUCKETS
 
 > aws s3 ls -> lists all buckets
+> aws s3 mb s3://nov12-5-test -> Create a new bucket with the name nov12-5-test
