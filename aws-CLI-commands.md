@@ -16,3 +16,4 @@ To configure private key and access key
 
 * > aws s3 ls -> lists all buckets
 * > aws s3 mb s3://nov12-5-test -> Create a new bucket with the name nov12-5-test
+* > aws s3 ls s3://land.giftsweep.us -> To find all the files inside the bucket land.giftsweep.us
