@@ -19,3 +19,4 @@ To configure private key and access key
 * > aws s3 ls s3://land.giftsweep.us -> To find all the files inside the bucket land.giftsweep.us
 * > aws s3 cp index.html s3://nov12-5-test -> copy a local file named index.html to the bucket nov12-test
 * > aws s3 cp s3://nov12-5-test/index.html . -> copy index.html from s3 bucket to local (Note: There is a dot (.) after index.html)
+* > aws s3 sync . s3://nov12-5-test -> sync everything in the current directory with the files inside the bucket.
