@@ -2,7 +2,7 @@
 
 ## Data types in python
 
-
+![data types](images/data-types-python.png "Data Types")
 
 ---
 
