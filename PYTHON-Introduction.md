@@ -6,6 +6,12 @@
 
 ---
 
+## checking data type in python
+
+a = 10
+type(a)  -> will return a is int
+
+---
 ## using a print statement
 
 ```python
