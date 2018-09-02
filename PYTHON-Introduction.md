@@ -1,5 +1,9 @@
 # Python Introduction
 
+## Data types in python
+
+
+
 ## using a print statement
 
 ```python
