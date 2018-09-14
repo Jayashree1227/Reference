@@ -119,7 +119,7 @@
 
 * [AWS CLI COMMANDS](https://github.com/jeriljose/Reference/blob/gh-pages/aws-CLI-commands.md)
 * [AWS - Serverless Computing with API Gateway and Lambda](https://github.com/jeriljose/Reference/blob/gh-pages/AWS-serverless-computing.md)
-* [AWS CLoud Formation Master Class]()
+* [AWS CLoud Formation Master Class](https://github.com/jeriljose/Reference/blob/gh-pages/AWS%20CLoud%20Formation%20Master%20Class.ipynb)
 ---
 
 # Using Sublime
